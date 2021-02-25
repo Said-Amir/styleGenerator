@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <title>StyleGenerator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="fond rot">
+
+    </div>
+    <header>
+        <div class="svg">
+            <img src="./undraw_making_art_759c.svg" alt="">
+        </div>
+        <h1>Style Generator</h1>
+    </header>
+    <section id="main">
+        <div class="container mx-auto mt-4 d-flex row">
+            <div class="d-flex col-lg-6 col-md-12 justify-content-around ">
+                <div class="d-flex flex-column">
+                    <button type="button" class="white btn btn-light my-2">W</button>
+                    <button type="button" class="red btn btn-danger my-2">R</button>
+                    <button type="button" class="green btn btn-success my-2">G</button>
+                    <button type="button" class="blue btn btn-primary my-2">B</button>
+                    <label for="exampleColorInput" class="form-label"></label>
+                    <input type="color" class="colorPicker form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">   
+                </div>
+                <div class="d-flex flex-column">
+                    <button type="button" class="btn btn-light my-2 py-3 border1"></button>
+                    <button type="button" class="btn btn-light my-2 py-3 border2"></button>
+                    <button type="button" class="btn btn-light my-2 py-3 border3"></button>
+                </div>
+                <div class="d-flex flex-column">
+                    <button type="button" class="btn btn-light my-2 py-1 top1">top</button>
+                    <button type="button" class="btn btn-light my-2 py-1 top2">top</button>
+                    <button type="button" class="btn btn-light my-2 py-1 top3">top</button>
+                </div>
+                <div class="d-flex flex-column ">
+                    <input type="number" class="number1">
+                    <input type="number" class="number2">
+                    <input type="number" class="number3">
+                    <input type="number" class="number4">
+                    <input type="number" class="number5">
+                </div>
+                <div class="d-flex flex-column ">
+                    <input type="number" class="number6">
+                    <input type="number" class="number7">
+                    <input type="number" class="number8">
+                    <input type="number" class="number9">
+                    <input type="number" class="number10">
+                </div>
+            </div>  
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center ">
+                <div id="square">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
