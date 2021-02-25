@@ -10665,13 +10665,13 @@ body header .svg img {
   width: 100%;
 }
 body #main .border1 {
-  border: solid 5px black;
+  border: solid 5px #6c42b9;
 }
 body #main .border2 {
-  border: dotted 5px black;
+  border: dotted 5px #6c42b9;
 }
 body #main .border3 {
-  border: solid 1px black;
+  border: solid 1px #6c42b9;
 }
 body #main .top2 {
   border-top: red 2px solid;
@@ -10689,19 +10689,19 @@ body #main input {
   margin: 6px 0;
 }
 body #main .number1 {
-  border: 5px solid black;
+  border: 5px solid #6c42b9;
 }
 body #main .number2 {
-  border-top: 5px solid black;
+  border-top: 5px solid #6c42b9;
 }
 body #main .number3 {
-  border-right: 5px solid black;
+  border-right: 5px solid #6c42b9;
 }
 body #main .number4 {
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #6c42b9;
 }
 body #main .number5 {
-  border-left: 5px solid black;
+  border-left: 5px solid #6c42b9;
 }
 body #main .number6 {
   border-radius: 8px;
@@ -10776,13 +10776,13 @@ body #main .number10 {
     width: 100%;
   }
   body #main .border1 {
-    border: solid 5px black;
+    border: solid 5px #6c42b9;
   }
   body #main .border2 {
-    border: dotted 5px black;
+    border: dotted 5px #6c42b9;
   }
   body #main .border3 {
-    border: solid 1px black;
+    border: solid 1px #6c42b9;
   }
   body #main .top2 {
     border-top: red 2px solid;
@@ -10801,19 +10801,19 @@ body #main .number10 {
     margin: 6px 0;
   }
   body #main .number1 {
-    border: 5px solid black;
+    border: 5px solid #6c42b9;
   }
   body #main .number2 {
-    border-top: 5px solid black;
+    border-top: 5px solid #6c42b9;
   }
   body #main .number3 {
-    border-right: 5px solid black;
+    border-right: 5px solid #6c42b9;
   }
   body #main .number4 {
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #6c42b9;
   }
   body #main .number5 {
-    border-left: 5px solid black;
+    border-left: 5px solid #6c42b9;
   }
   body #main .number6 {
     border-radius: 8px;
